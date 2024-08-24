@@ -19,11 +19,11 @@ namespace XMLSaver
 
             Console.Write("Введите данные для подключения к БД: ");
             // Подключение к БД
-            string connectionString = Console.ReadLine(); //"Host=localhost; Port=5432; Database=Shop; Username=postgres; Password=123;";
+            string connectionString = Console.ReadLine();
 
             Console.Write("Введите путь к файлу: ");
             // Путь к файлу
-            string xmlFilePath = Console.ReadLine(); //@"E:\\testXML.xml";
+            string xmlFilePath = Console.ReadLine();
 
             try
             {
