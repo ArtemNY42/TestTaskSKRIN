@@ -1,0 +1,27 @@
+CREATE DATABASE "Shop";
+
+CREATE TABLE "User" (
+    "Id" serial PRIMARY KEY,
+    "FIO" VARCHAR(255),
+    "Email" VARCHAR(255)
+);
+
+CREATE TABLE "Product" (
+    "Id" serial PRIMARY KEY,
+    "Name" VARCHAR(255)
+);
+
+CREATE TABLE "Order" (
+    "Id" serial PRIMARY KEY,
+    "ClientId" INT,
+    "Date" Date,
+    "No" INT
+);
+
+CREATE TABLE "Sell" (
+    "Id" serial PRIMARY KEY,
+    "OrderId" INT,
+    "ProductId" INT,
+    "Quantity" INT,
+    "Price" DECIMAL(16, 2)
+);

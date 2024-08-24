@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bDgwZb6U2KG4vmlV8f0pdluUdVH3Ncc2nGEKHpbgy4ILcFzjsLSmuqNr9HrAB1bGGmM/pHlYb8CMF6+IpK6iKA==",
+  "success": true,
+  "projectFilePath": "E:\\Training\\XMLSaver\\XMLSaver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Artem\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Artem\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Artem\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
